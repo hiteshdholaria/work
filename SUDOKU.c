@@ -1,22 +1,22 @@
 /*
-  Title			# SUDOKU solver in C language
+	Title			# SUDOKU solver in C language
 	Author			# Hitesh Dholaria
 	Email			# hitesh.dholaria@gmail.com
 
 	Input 			# Following is a sample SUDOKU problem stored in the file named "problem.txt"
-					# Here, 0 represents empty place
-					# So, our overall goal is to replace such 0-places by some appropriate numbers
-					# There are total of 9 rows, 9 columns and 9 blocks of size (3x3)
+				# Here, 0 represents empty place
+				# So, our overall goal is to replace such 0-places by some appropriate numbers
+				# There are total of 9 rows, 9 columns and 9 blocks of size (3x3)
 
-					008000050
-					370009010
-					000140007
-					050020600
-					001908300
-					003060020
-					700084000
-					080200063
-					090000400
+				008000050
+				370009010
+				000140007
+				050020600
+				001908300
+				003060020
+				700084000
+				080200063
+				090000400
 
 	Time Complexity # O(rows^2) OR O(columns^2)
 */
